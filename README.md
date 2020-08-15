@@ -3,9 +3,11 @@
 * Deep Convolution GAN network to generate pokemon characters
 
 <br/>
+
 #### Datasets
-|Link|https://www.kaggle.com/kvpratama/pokemon-images-dataset|
-|-|-|-|
+
+| Link | https://www.kaggle.com/kvpratama/pokemon-images-dataset |
+|-|-|
 |Size of each image | 256 x 256 |
 ||
 |Sample|![](images/collage_1.png) |
@@ -13,7 +15,7 @@
 <br/>
 
 |Link|https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types|
-|-|-|-|
+|-|-|
 |Size of each image | 120 x 120 |
 ||
 |Sample|![](images/collage_2.png) |
@@ -29,6 +31,7 @@
 * After downloading merge images of these two datasets into {data/dcgan_color/pokemon/} directory.
 
 <br/>
+
 #### DCGAN Model
 
 * Base model idea : https://github.com/eriklindernoren/Keras-GAN/blob/master/dcgan/dcgan.py
@@ -105,7 +108,7 @@
 	|<center><b style="background-color:white;">Flatten</b></center>|
 	|<center><b style="background-color:white;">Dense \{units = 1\}</b></center>|
 	|<center><b style="background-color:white;">Activation \{'sigmoid'\}</b></center>|
-
+	
 	</center>
 	
 * Other parameters
@@ -133,7 +136,9 @@
 	* Matplotlib
 
 <br/>
+
 #### Result
+
 <center>
 
 |<center>From The Begning Of Training</center>|
