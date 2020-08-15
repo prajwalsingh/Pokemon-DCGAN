@@ -1,4 +1,4 @@
-# <center>POKEMON-DCGAN<sub></sub></center>
+# <div align='center'>Pokemon-DCGAN</div>
 
 * Deep Convolution GAN network to generate pokemon characters
 
@@ -38,7 +38,7 @@
 
 * Modified Model
 
-	<center>
+	<div align='center'>
 	
 	|<center>GENERATOR MODEL</center>|
 	|-|
@@ -109,7 +109,7 @@
 	|<center><b style="background-color:white;">Dense \{units = 1\}</b></center>|
 	|<center><b style="background-color:white;">Activation \{'sigmoid'\}</b></center>|
 	
-	</center>
+	</div>
 	
 * Other parameters
 
@@ -139,7 +139,7 @@
 
 #### Result
 
-<center>
+<div align='center'>
 
 |<center>From The Begning Of Training</center>|
 |-|
@@ -150,4 +150,4 @@
 |-|
 |![](images/output_2.gif) |
 
-</center>
+</div>
